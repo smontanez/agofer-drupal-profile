@@ -1,7 +1,9 @@
 api = 2
-includes[] = drupal-org-core.make
+core = 7.x
+projects[drupal][type] = core
+projects[drupal][version] = 7.17
 
 projects[agofer][download][type] = git
-projects[agofer][download][url] = http://git.drupal.org/project/agofer.git
-projects[agofer][download][branch] = 7.x-1.0.6
+projects[agofer][download][url] = https://github.com/jorgeegomez/agofer-drupal-profile.git
+projects[agofer][download][branch] = master
 projects[agofer][type] = profile
